@@ -4,5 +4,5 @@
 	dh $(@)
 
 override_dh_auto_configure:
-	./autogen.sh
+	make -f Makefile.dist all
 	./configure --prefix=/usr --sysconfdir=/etc

@@ -1,3 +1,12 @@
+pdf2laser (0.4.0-1) stable; urgency=medium
+
+  * Major refactor
+    - Migrates build system to use autotools correctly
+    - Breaks up monolithic codebase into multiple constituent parts
+    - NB. No API changes
+
+ -- Zachary Elliott <contact@zell.io>  Sat, 01 Jun 2017 01:00:00 +0000
+
 pdf2laser (0.3.3-1) stable; urgency=medium
 
   * hotfix: corrects tab completion file building
