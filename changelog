@@ -1,3 +1,10 @@
+pdf2laser (0.5.0-1) stable; urgency=medium
+
+  * dogfinder: adds new multipass feature
+  * dogfinder: corrects segfault in gsapi interface
+
+ -- Zachary Elliott <contact@zell.io>  Fri, 01 Nov 2019 01:00:00 +0000
+
 pdf2laser (0.4.0-1) stable; urgency=medium
 
   * Major refactor
@@ -5,25 +12,25 @@ pdf2laser (0.4.0-1) stable; urgency=medium
     - Breaks up monolithic codebase into multiple constituent parts
     - NB. No API changes
 
- -- Zachary Elliott <contact@zell.io>  Sat, 01 Jun 2017 01:00:00 +0000
+ -- Zachary Elliott <contact@zell.io>  Thu, 01 Jun 2017 01:00:00 +0000
 
 pdf2laser (0.3.3-1) stable; urgency=medium
 
   * hotfix: corrects tab completion file building
 
- -- Zachary Elliott <contact@zell.io>  Sat, 28 Jan 2015 01:00:00 +0000
+ -- Zachary Elliott <contact@zell.io>  Wed, 28 Jan 2015 01:00:00 +0000
 
 pdf2laser (0.3.2-1) stable; urgency=medium
 
   * Adds bash/zsh tab completion file
 
- -- Zachary Elliott <contact@zell.io>  Sat, 28 Jan 2015 01:00:00 +0000
+ -- Zachary Elliott <contact@zell.io>  Wed, 28 Jan 2015 01:00:00 +0000
 
 pdf2laser (0.3.1-1) stable; urgency=medium
 
   * hotfix: Sets _POSIX_C_SOURCE to 199309L
 
- -- Zachary Elliott <contact@zell.io>  Sat, 27 Jan 2015 01:00:00 +0000
+ -- Zachary Elliott <contact@zell.io>  Tue, 27 Jan 2015 01:00:00 +0000
 
 pdf2laser (0.3.0-1) stable; urgency=medium
 
@@ -31,7 +38,7 @@ pdf2laser (0.3.0-1) stable; urgency=medium
   * Adds verbosity to autotools script
   * Reformat code for later refactoring
 
- -- Zachary Elliott <contact@zell.io>  Sat, 26 Jan 2015 01:00:00 +0000
+ -- Zachary Elliott <contact@zell.io>  Mon, 26 Jan 2015 01:00:00 +0000
 
 pdf2laser (0.2.1-1) stable; urgency=low
 
