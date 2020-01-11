@@ -1,0 +1,14 @@
+Source: pdf2laser
+Maintainer: Zachary Elliott <contact@zell.io>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9), autoconf, automake
+
+Package: pdf2laser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ghostscript
+Description: Tool for printing PDF to an Epilog laser cutter over the network.
+ pdf2laser converts PDF files to postscript files via ghostscript and then
+ sends them to an Epilog laser cutter for "printing". In addition to
+ conversation pdf2laser will attempt to optimize the vector path of your cut.

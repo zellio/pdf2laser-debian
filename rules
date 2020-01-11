@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $(@)
+
+override_dh_auto_configure:
+	bash -x ./autogen.sh
+	./configure --prefix=/usr --sysconfdir=/etc
