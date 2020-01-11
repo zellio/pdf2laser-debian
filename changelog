@@ -1,3 +1,9 @@
+pdf2laser (0.3.2-1) stable; urgency=medium
+
+  * Adds bash/zsh tab completion file
+
+ -- Zachary Elliott <contact@zell.io>  Sat, 28 Jan 2015 01:00:00 +0000
+
 pdf2laser (0.3.1-1) stable; urgency=medium
 
   * hotfix: Sets _POSIX_C_SOURCE to 199309L
