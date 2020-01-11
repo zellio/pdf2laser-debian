@@ -4,5 +4,5 @@
 	dh $(@)
 
 override_dh_auto_configure:
-	bash -x ./autogen.sh
+	./autogen.sh
 	./configure --prefix=/usr --sysconfdir=/etc
