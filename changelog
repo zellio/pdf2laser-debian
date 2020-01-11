@@ -1,3 +1,10 @@
+pdf2laser (0.5.1-1) stable; urgency=medium
+
+  * bugfix: Correct library includes for gsapi
+  * bugfix: expands Makefile.dist to better utilize autotools
+
+ -- Zachary Elliott <contact@zell.io>  Sat, 11 Jan 2020 05:05:57 +0000
+
 pdf2laser (0.5.0-1) stable; urgency=medium
 
   * dogfinder: adds new multipass feature
