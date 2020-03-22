@@ -1,3 +1,15 @@
+pdf2laser (1.0.0-1) stable; urgency=medium
+
+  * Major version release
+    - This release is not backwards compatible. Flags have changed.
+  * Adds preset file handling
+    - Provides a set of default preset files
+  * Adds arbitrary colour handling for vectors
+    - Vector flag arguments now take the form COLOR=VALUE
+    - e.g. --vector-speed=000000=10
+
+ -- Zachary Elliott <contact@zell.io>  Sun, 22 Mar 2020 00:30:35 +0000
+
 pdf2laser (0.5.1-1) stable; urgency=medium
 
   * bugfix: Correct library includes for gsapi
